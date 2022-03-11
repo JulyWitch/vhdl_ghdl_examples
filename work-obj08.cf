@@ -1,0 +1,7 @@
+v 4
+file . "test/counter.vhdl" "aa75096d595a4d3c64cb0176beefa64f8589ff00" "20220311194455.302":
+  entity counter at 1( 0) + 0 on 15;
+  architecture behaviour of counter at 13( 212) + 0 on 16;
+file . "test/counter.test.vhdl" "8d67ba819dfef3d9216b547b61bae02ecc170116" "20220311194455.303":
+  entity counter_tb at 1( 0) + 0 on 17;
+  architecture testbench of counter_tb at 8( 111) + 0 on 18;

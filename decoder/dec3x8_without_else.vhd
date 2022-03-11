@@ -5,7 +5,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 --entity declaration with port definitions
 entity dec3x8_without_else is
 port(    input :        in std_logic_vector(2 downto 0);  --3 bit input
-            output : out std_logic_vector(7 downto 0)  -- 8 bit ouput
+         output : out std_logic_vector(7 downto 0)  -- 8 bit ouput
    );
 end dec3x8_without_else;
 --architecture of entity
