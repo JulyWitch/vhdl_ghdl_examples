@@ -1,17 +1,17 @@
-VHDLEX = .vhd
-
 # using gtkwave to show simulations 
 WAVEFORM_VIEWER = gtkwave
 
 # ghdl
 GHDL_CMD = ghdl
-GHDL_FLAGS  = --ieee=synopsys --warn-no-vital-generic
+GHDL_FLAGS  = -fsynopsys --std=08
 
-I = "inputFile"
-T = "inputTestFile"
-O = "outputFile"
+I = "put file path here"
+T = "put test file path here"
+E = "put entity name here"
 
 compile:
-	$(GHDL_CMD) $(GHDL_FLAGS) -a $(I)
-	$(GHDL_CMD) $(GHDL_FLAGS) -a $(T)
-	$(GHDL_CMD) -r $(basename $(T)) — vcd=$(O)
+	$(GHDL_CMD) -a $(GHDL_FLAGS) $(I) $(T) 
+	$(GHDL_CMD) -e $(GHDL_FLAGS) $(E)
+	$(GHDL_CMD) -r $(GHDL_FLAGS) $(E) --vcd=$(dir $(I))$(E).vcd --wave=$(dir $(I))$(E).ghw --stop-time=1us
+
+
