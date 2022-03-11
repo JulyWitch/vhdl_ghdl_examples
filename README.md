@@ -16,6 +16,8 @@ sudo apt-get install ghdl gtkwave
 
 - Mac
 
+You can also install scansion instead of gtkwave.
+
 ```zsh
 brew install ghdl gtkwave
 ```
