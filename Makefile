@@ -1,6 +1,3 @@
-# using gtkwave to show simulations 
-WAVEFORM_VIEWER = gtkwave
-
 # ghdl
 GHDL_CMD = ghdl
 GHDL_FLAGS  = -fsynopsys --std=08
