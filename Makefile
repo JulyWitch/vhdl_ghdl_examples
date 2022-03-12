@@ -6,7 +6,7 @@ GHDL_CMD = ghdl
 GHDL_FLAGS  = -fsynopsys --std=08
 
 I = "put file path here"
-T = "put test file path here"
+T = 
 E = "put entity name here"
 
 S_TIME = 1us
