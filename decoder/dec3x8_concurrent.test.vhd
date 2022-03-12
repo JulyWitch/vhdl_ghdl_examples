@@ -13,7 +13,7 @@ signal output :  std_logic_vector(7 downto 0) :=(others => '0');
 
 begin
 --entity instantiation
-UUT : entity work.dec3x8_without_else port map(input,output);
+UUT : entity work.dec3x8_concurrent port map(input,output);
 
 --definition of simulation process
 tb : process 

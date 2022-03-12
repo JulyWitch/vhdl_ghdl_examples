@@ -3,13 +3,13 @@ use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_ARITH.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
-entity decoder3x8_with_else is
+entity dec3x8_conditional is
 port(x:in STD_LOGIC_VECTOR(2 downto 0);
      y:out STD_LOGIC_VECTOR(7 downto 0));
 
-end decoder3x8_with_else;
+end dec3x8_conditional;
 
-architecture behavioral of decoder3x8_with_else is
+architecture behavioral of dec3x8_conditional is
 begin
   y  <=        "00000001" when (x="000") else
                "00000010" when (x="001") else
