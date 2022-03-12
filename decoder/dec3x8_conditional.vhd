@@ -19,5 +19,5 @@ begin
                "00100000" when (x="101") else
                "01000000" when (x="110") else
                "10000000" when (x="111") else
-               "00000000";
+               "XXXXXXXX";
 end architecture;

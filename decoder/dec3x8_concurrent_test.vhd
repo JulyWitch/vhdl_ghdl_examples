@@ -3,10 +3,10 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 
 --this is how entity for your test bench code has to be declared.
-entity testbench is
-end testbench;
+entity dec3x8_concurrent_test is
+end dec3x8_concurrent_test;
 
-architecture behavior of testbench is
+architecture behavior of dec3x8_concurrent_test is
 --signal declarations.
 signal input : std_logic_vector(2 downto 0) :=(others => '0');
 signal output :  std_logic_vector(7 downto 0) :=(others => '0');
