@@ -22,6 +22,13 @@ You can also install scansion instead of gtkwave.
 brew install ghdl gtkwave
 ```
 
+- Windows
+
+Install ghdl and gtkwave using [msys2](https://www.msys2.org/)
+
+[ghdl](https://packages.msys2.org/base/mingw-w64-ghdl)
+[gtkwave](https://packages.msys2.org/base/mingw-w64-gtkwave)
+
 ### Usage
 
 Clone this repo
