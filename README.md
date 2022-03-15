@@ -24,7 +24,9 @@ brew install ghdl gtkwave
 
 - Windows
 
-Install ghdl and gtkwave using [msys2](https://www.msys2.org/)
+Install make, ghdl and gtkwave using [msys2](https://www.msys2.org/)
+
+[make](https://packages.msys2.org/package/make)
 
 [ghdl](https://packages.msys2.org/base/mingw-w64-ghdl)
 
