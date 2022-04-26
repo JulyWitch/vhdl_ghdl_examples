@@ -14,6 +14,7 @@ ARCHITECTURE behavior OF mux8x1_conditional_test IS
     SIGNAL sel : STD_LOGIC_VECTOR(2 DOWNTO 0) := (OTHERS => '0');
     SIGNAL y : STD_LOGIC;
 
+
 BEGIN
     --entity instantiation
     UUT : ENTITY work.mux8x1_conditional PORT MAP(sel, x, y);

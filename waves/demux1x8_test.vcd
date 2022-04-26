@@ -1,0 +1,97 @@
+$date
+  Mon Apr 11 22:30:08 2022
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module textio $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module std_logic_arith $end
+$upscope $end
+$scope module std_logic_unsigned $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module demux1x8_test $end
+$var reg 1 ! x $end
+$var reg 3 " sel[2:0] $end
+$var reg 8 # y[7:0] $end
+$scope module uut $end
+$var reg 1 $ x $end
+$var reg 3 % sel[2:0] $end
+$var reg 8 & y[7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+b000 "
+b0000000U #
+0$
+b000 %
+b0000000U &
+#20000000
+b00000000 #
+b00000000 &
+#100000000
+1!
+1$
+b00000000 &
+#120000000
+b00000001 #
+b00000001 &
+#150000000
+0!
+0$
+b00000001 &
+#170000000
+b00000000 #
+b00000000 &
+#180000000
+1!
+1$
+b00000000 &
+#200000000
+0!
+b00000001 #
+0$
+b00000001 &
+#220000000
+b00000000 #
+b00000000 &
+#300000000
+1!
+b001 "
+1$
+b001 %
+b00000000 &
+#320000000
+b00000010 #
+b00000010 &
+#350000000
+0!
+0$
+b00000010 &
+#370000000
+b00000000 #
+b00000000 &
+#380000000
+1!
+1$
+b00000000 &
+#400000000
+0!
+b00000010 #
+0$
+b00000010 &
+#420000000
+b00000000 #
+b00000000 &
+#500000000
