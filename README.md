@@ -22,12 +22,34 @@ You can also install scansion instead of gtkwave.
 brew install ghdl gtkwave
 ```
 
+- Windows
+
+Install make, ghdl and gtkwave using [msys2](https://www.msys2.org/)
+
+[make](https://packages.msys2.org/package/make)
+
+[ghdl](https://packages.msys2.org/base/mingw-w64-ghdl)
+
+[gtkwave](https://packages.msys2.org/base/mingw-w64-gtkwave)
+
 ### Usage
 
-Create your vhdl file and it's test bench, then run the following command.
+Clone this repo
+```bash
+git clone https://github.com/JulyWitch/vhdl_ghdl_examples.git
+```
+
+navigate to repo directory
+```bash
+cd vhdl_ghdl_examples
+```
+
+Create your vhdl file and it's test bench, 
+
+then run the following command.
 
 ```
-make I=<input_file> T=<test_bench_file> E=<entity_name>
+make I=<input_file> T=<test_bench_file> E=<test_bench_entity_name>
 ```
 
 example
@@ -39,6 +61,8 @@ make I=test/counter.vhdl T=test/counter.test.vhdl E=counter_tb
 This will generate wave and vcd files to the waves directory.
 
 Then open generated .ghw or .vcd file with gtkwave.
+
+### Options
 
 To change simulation time pass `S_TIME = <time>` to make command. Time can be in ns, us, and ms.
 
